@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | FAST NUCES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Muhammad Yousuf</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Muhammad Yousuf</h1>
+            <p>BSDS Student at FAST NUCES Karachi | C Programmer | Problem Solver</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Future Data Scientist</h3>
+                <p>
+                    I am a first-semester Data Science student at FAST National University Karachi. 
+                    I am deeply interested in the logic behind software and data.
+                </p>
+                <p>
+                    While I am currently mastering <strong>C Programming</strong>, I am actively exploring 
+                    <strong>Machine Learning</strong> and <strong>Cyber Security</strong>. My goal is to build secure, intelligent systems.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="profile.jpg" alt="Muhammad Yousuf">
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="bg-white">
+        <h2 class="section-title">Education</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>BS Data Science</h3>
+                <span class="date">2025 - Present</span>
+                <p><strong>FAST NUCES, Karachi</strong></p>
+                <p>Focusing on Programming Fundamentals, ICT, and Calculus.</p>
+            </div>
+            <div class="card">
+                <h3>A-Levels</h3>
+                <span class="date">Completed 2025</span>
+                <p><strong>Alpha College</strong></p>
+                <p>Major in Pre-Engineering / Computer Science.</p>
+            </div>
+            <div class="card">
+                <h3>O-Levels</h3>
+                <span class="date">Completed 2023</span>
+                <p><strong>Alpha High School</strong></p>
+                <p>Major in Computer Science.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill-pill">C Language</div>
+            <div class="skill-pill">Raylib</div>
+            <div class="skill-pill">HTML5 & CSS3</div>
+            <div class="skill-pill">JavaScript</div>
+            <div class="skill-pill">Algorithms</div>
+            <div class="skill-pill">VS Code</div>
+            <div class="skill-pill">Dev-C++</div>
+            <div class="skill-pill">Git</div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-white">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>Supermarket System</h3>
+                <p>A robust inventory management system built in C. It uses file handling to store stock data and generates sales receipts.</p>
+                <br>
+                <a href="#" class="project-link">View Code &rarr;</a>
+            </div>
+
+            <div class="card">
+                <h3>My GitHub Profile</h3>
+                <p>Explore all my source code, repositories, and future projects. I regularly update this with my C and Web development work.</p>
+                <br>
+                <a href="https://github.com/YourActualUsername" target="_blank" class="project-link">Visit Profile &rarr;</a>
+            </div>
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>The responsive website you are viewing right now. Designed from scratch using modern HTML and CSS techniques.</p>
+                <br>
+                <a href="#" class="project-link">View Code &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="social-links-container">
+            <p>Connect with me:</p>
+            <div class="social-buttons">
+                <a href="#" target="_blank" class="social-btn linkedin">LinkedIn</a>
+                <a href="#" target="_blank" class="social-btn whatsapp">WhatsApp</a>
+                <a href="#" target="_blank" class="social-btn instagram">Instagram</a>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form onsubmit="handleFormSubmit(event)">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" required>
+                
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+                
+                <label>Message</label>
+                <textarea rows="5" placeholder="How can I help you?" required></textarea>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muhammad Yousuf. Designed for FAST ICT Project.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
